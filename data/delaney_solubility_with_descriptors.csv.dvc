@@ -1,0 +1,5 @@
+outs:
+- md5: 68735eb54bfc7395eb39d7bae19e3238
+  size: 57370
+  hash: md5
+  path: delaney_solubility_with_descriptors.csv

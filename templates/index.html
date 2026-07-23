@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drug Classifier</title>
+</head>
+<body>
+    <h1>Drug Classifier</h1>
+    <form method="POST">
+        <label>MolLogP:</label>
+        <input type="text" name="MolLogP" required><br><br>
+
+        <label>MolWt:</label>
+        <input type="text" name="MolWt" required><br><br>
+
+        <label>NumRotatableBonds:</label>
+        <input type="text" name="NumRotatableBonds" required><br><br>
+
+        <label>AromaticProportion:</label>
+        <input type="text" name="AromaticProportion" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction is not none %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
