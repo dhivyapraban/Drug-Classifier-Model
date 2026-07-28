@@ -125,3 +125,4 @@ htmlcov/
 mlruns/
 tensorboard_logs/
 wandb/
+/Drug_classifier.joblib

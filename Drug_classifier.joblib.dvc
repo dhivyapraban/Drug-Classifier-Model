@@ -1,0 +1,5 @@
+outs:
+- md5: 6210abc3e43a780f76238334e905171c
+  size: 83201
+  hash: md5
+  path: Drug_classifier.joblib
